@@ -1,0 +1,42 @@
+main ()
+{
+// Assignment No:2 - Data Types Conversion
+
+//Convert String into Integer and Double Data type//
+String salary= '12000';
+
+int salaryInInteger = int.parse(salary);
+print("Salary in String to Integer: $salaryInInteger");
+//Salary in String to Integer: 12000
+
+double salaryInDouble = double.parse(salary);
+print("Salary in String to Double : $salaryInDouble");
+//Salary in String to Double : 12000.0
+
+//Covert Double and Integer into String Data type//
+int firstStudentFee = 4000;
+int secoundStudentFee = 2000;
+
+int sumOfStudentsFee = firstStudentFee+secoundStudentFee;
+String sumOfStudentFeeInString = sumOfStudentsFee.toString();
+print("Sum of Student Fee Integer to String: $sumOfStudentFeeInString");
+//Sum of Student fee Integer to String: 6000
+
+double avgFee = (firstStudentFee+secoundStudentFee)/2;
+String avgFeeInString = avgFee.toString();
+print("Average Student fee Double to String: $avgFeeInString");
+//Average Student fee Double to String: 3000
+
+//Convert Double to Integer//
+int marks = 15;
+double marksInDouble = marks.toDouble();
+print("Marks in Integer to Double: $marksInDouble");
+//Marks in Integer to Double: 15.0
+
+//Convert Double to Integer//
+double result = 15.5;
+int resultInInteger = result.toInt();
+print("Marks in Double to Intager: $resultInInteger");
+//Marks in Double to Intager: 15
+
+}
